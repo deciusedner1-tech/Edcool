@@ -1,0 +1,139 @@
+/* ----- Jeneral ----- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a1a; /* Nwa ak ble fonse */
+    color: #fff;
+    text-align: center;
+}
+
+/* ----- Paj Login ----- */
+.login-page {
+    background: linear-gradient(to bottom, #0a0a1a, #1a1a3a);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container, .register-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #1e1e3a;
+    color: #fff;
+}
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0055cc;
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+/* ----- Paj Prensipal ----- */
+.home-page {
+    background: #0a0a1a;
+}
+
+header {
+    background: #1a1a3a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #00ccff;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.categories, .featured-photos {
+    padding: 50px 20px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category {
+    background: #1a1a3a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background: #0077ff;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-item {
+    background: #1a1a3a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.photo-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buy-btn {
+    background: #00cc00;
+}
+
+.buy-btn:hover {
+    background: #009900;
+}
+
+footer {
+    background: #1a1a3a;
+    padding: 20px;
+    margin-top: 50px;
+}
